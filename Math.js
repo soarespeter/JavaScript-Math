@@ -27,8 +27,35 @@ const resultNumber= document.querySelector(".result")
 
 resultNumber.innerHTML=result
 
+
+if(min > max){
+
+    alert("o número precisa ser maior")
+    
+    
+    
     }
 
+    else{
+
+
+
+        const max= Math.floor(document.querySelector(".right").value)
+
+        const result= Math.floor(Math.random() * (max - min) + min);
+        
+        const resultNumber= document.querySelector(".result")
+        
+        
+        resultNumber.innerHTML=result
+        
+
+
+
+    }
+
+
+    }
 
 
 
